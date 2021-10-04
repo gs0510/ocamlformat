@@ -13,7 +13,7 @@ type input =
   ; action: [`Format | `Numeric of range] }
 
 let inputs =
-  let source_ml = Stdio.In_channel.read_all "test/source_bench.ml" in
+  let source_ml = Stdio.In_channel.read_all "test/source.ml" in
   [ { name= "format:conventional"
     ; input_name= "source.ml"
     ; kind= Syntax.Structure

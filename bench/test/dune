@@ -1,5 +1,5 @@
 (rule
- (target source_bench.ml)
+ (target bench.ml)
  (deps source.ml)
  (action
   (with-stdout-to
